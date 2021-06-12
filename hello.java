@@ -2,12 +2,11 @@ public class Hello{
     public static void main(String[] ){
         System.out.println("Vs code is Awesome...");
         greeting("Rakib Ahasan");
-        saySomething("how are you?");
+        message();
     }
-    public void greeting(String name){
-        System.out.println("Bye Bye" + name);
-    }
-    public void saySomething(String s){
-        System.out.println("Hello dear...");
+    
+    public static void message(){
+        System.out.println("Hooray!! Now we are able to contribute on oper source.");
+
     }
 }
