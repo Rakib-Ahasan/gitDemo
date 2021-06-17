@@ -9,4 +9,7 @@ public class Hello{
         System.out.println("Hooray!! Now we are able to contribute on oper source.");
 
     }
+    public static void add(int a, int b){
+        return a+b;
+    }
 }
