@@ -4,12 +4,7 @@ public class Hello{
         greeting("Rakib Ahasan");
         message();
     }
-    
-    public static void message(){
-        System.out.println("Hooray!! Now we are able to contribute on oper source.");
-
-    }
-    public static void add(int a, int b){
-        return a+b;
+    public static void sqr(int a){
+        return a*a;
     }
 }
