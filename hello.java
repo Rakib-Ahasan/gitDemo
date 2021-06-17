@@ -4,7 +4,7 @@ public class Hello{
         greeting("Rakib Ahasan");
         message();
     }
-    public static void sqr(int a){
-        return a*a;
+    public static void area(int a,int b, int c){
+        return a*b*c;
     }
 }
